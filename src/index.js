@@ -1,9 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
-import './index.css';
 
-// factories
 import createApp from './App';
 
 const App = createApp(React, PropTypes);
